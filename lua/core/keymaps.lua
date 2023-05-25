@@ -11,10 +11,12 @@ vim.opt.laststatus = 2
 vim.opt.autowrite = true
 vim.opt.cursorline = true
 vim.opt.autoread = true
+vim.opt.swapfile = false
+vim.opt.ignorecase = true
 
--- use spaces for tabs
-vim.opt.tabstop = 2
-vim.opt.shiftwidth = 2
+-- spaces / indent
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
 vim.opt.shiftround = true
 vim.opt.expandtab = true
 
